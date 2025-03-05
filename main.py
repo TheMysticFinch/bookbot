@@ -7,7 +7,7 @@ def get_book_text(file_path):
 
 def main():
     
-    frankenstein = get_book_text("frankenstein.txt")
+    frankenstein = get_book_text("~/projects/bookbot/books/frankenstein.txt")
     print(frankenstein)
 
 
