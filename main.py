@@ -16,7 +16,6 @@ def get_number_words(file_path):
 def main():
     
     frankenstein = get_book_text("books/frankenstein.txt")
-    print(frankenstein)
 
     frankenstein_wc = get_number_words("books/frankenstein.txt")
     print(f"{frankenstein_wc} words found in the document")
