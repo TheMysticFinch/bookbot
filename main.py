@@ -19,7 +19,7 @@ def main():
     print(frankenstein)
 
     frankenstein_wc = get_number_words("books/frankenstein.txt")
-    print(frankenstein_wc)
+    print(f"{frankenstein_wc} words found in the document")
 
 main()
     
