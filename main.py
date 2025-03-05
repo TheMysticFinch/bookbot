@@ -8,9 +8,10 @@ def get_book_text(file_path):
 def get_number_words(file_path):
     
     with open(file_path) as f:
-        files_contents = f.split()
+        files_contents = f.read()
+        word_count = len(files_contents.split())
 
-    return files_contents
+    return word_count
 
 def main():
     
